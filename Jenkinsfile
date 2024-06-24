@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    stages {
     environment {
         ARTIFACTORY_SERVER_ID = 'artifactory'
         ARTIFACTORY_URL = 'http://localhost:8081/artifactory'
@@ -19,4 +19,5 @@ post {
             echo 'Pipeline failed.'
         }
     }
+}
 }
