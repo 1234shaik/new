@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         ARTIFACTORY_SERVER_ID = 'artifactory'
-        ARTIFACTORY_URL = 'http://localhost:8082/artifactory'
+        ARTIFACTORY_URL = 'http://localhost:8081/artifactory'
         ARTIFACTORY_CREDENTIALS_ID = 'jfrog-password1' // ID of the stored credentials in Jenkins
     }
 
